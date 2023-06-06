@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.dp-menu h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dp-menu ul {
+    list-style: none;
+    padding: 0;
+    background-color:  #151515;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: rgb(168, 168, 172);
+}
+
+.dp-menu ul li a:hover {
+    background-color: lightgray;
+}
+
+/*sub menu*/
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 250px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+#resto img {
+    margin-top: 50px;
+}
+
+.participantes {
+    display: flex;
+    margin-top: 100px;
+}
+
+.participantes a img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.participantes a img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-filter: drop-shadow 15px 10px 5px rgb(0,0,0,.5);
+    filter: drop-shadow 15px 10px 5px rgb(0,0,0,.5);
+}
+
+.text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.text2 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
